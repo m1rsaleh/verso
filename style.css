@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body hr {
+  width: 90%;
+  margin-left: 5%;
+}
+
+body div header .main-title {
+  text-align: center;
+  font-size: xx-large;
+  height: 90px;
+}
+
+body div header hr {
+  width: 90%;
+  margin-left: 5%;
+}
+
+body div header navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body div header navbar ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 90%;
+  margin-top: 2rem;
+  font-size: 1.3rem;
+}
+
+body div header navbar ul:hover {
+  color: #1cd463;
+  cursor: pointer;
+  -webkit-transition: 0.3;
+  transition: 0.3;
+}
+
+body div main #main .slider {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body div main #main .slider img {
+  width: 90%;
+  height: 500px;
+  margin-top: 3rem;
+}
+
+body div main #main .product {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+body div main #main .product .product-1 {
+  width: 25%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body div main #main .product .product-1 img {
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 250px;
+  margin-top: 1.5rem;
+}
+
+body div main #main .product .product-1 imghover {
+  background-color: aquamarine;
+}
+
+body div main #main .product .product-1 span {
+  margin-top: 1.5rem;
+  font-size: 1.2rem;
+}
+
+body div main #main .product .product-1 span:hover {
+  cursor: pointer;
+  color: chartreuse;
+}
+
+body div footer #foot {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  width: 80%;
+  font-size: 1.4rem;
+}
+
+body div footer #foot a {
+  color: black;
+}
+
+body div footer #foot a:hover {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  color: chartreuse;
+}
+/*# sourceMappingURL=style.css.map */

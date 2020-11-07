@@ -1,0 +1,121 @@
+@import "scss/variables";
+@import "scss/mixin";
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  hr {
+    width: 90%;
+    margin-left: 5%;
+  }
+  div {
+    header {
+      .main-title {
+        text-align: center;
+        font-size: xx-large;
+        height: 90px;
+      }
+
+      hr {
+        width: 90%;
+        margin-left: 5%;
+      }
+      navbar {
+        display: flex;
+        justify-content: center;
+        ul {
+          list-style: none;
+          display: flex;
+          justify-content: space-between;
+
+          width: 90%;
+          margin-top: 2rem;
+          font-size: 1.3rem;
+          &:hover {
+            color: rgb(28, 212, 99);
+            cursor: pointer;
+            transition: 0.3;
+          }
+        }
+      }
+    }
+
+    main {
+      #main {
+        .slider {
+          display: flex;
+          justify-content: center;
+          img {
+            width: 90%;
+            height: 500px;
+            margin-top: 3rem;
+          }
+        }
+
+        .product {
+          width: 100%;
+          display: flex;
+          flex-wrap: wrap;
+
+          margin-top: 5%;
+          margin-bottom: 5%;
+
+          .product-1 {
+            width: 25%;
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            img {
+              justify-content: space-around;
+              width: 250px;
+              margin-top: 1.5rem;
+
+              &hover {
+                background-color: aquamarine;
+              }
+            }
+
+            span {
+              margin-top: 1.5rem;
+              font-size: 1.2rem;
+
+              &:hover {
+                cursor: pointer;
+                color: chartreuse;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    footer {
+      #foot {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        width: 80%;
+        font-size: 1.4rem;
+
+        a {
+          color: black;
+          
+          &:hover{
+               transition: 0.5s;
+               color: chartreuse;
+           
+
+          }   
+       
+        }
+
+      }
+    }
+  }
+}
